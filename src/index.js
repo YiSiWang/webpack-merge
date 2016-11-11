@@ -122,5 +122,5 @@ module.exports.smart = function webpackMerge() {
 };
 
 function isLoader(key) {
-  return ['preLoaders', 'loaders', 'postLoaders'].indexOf(key) >= 0;
+  return ['preLoaders', 'loaders', 'postLoaders', 'rules'].indexOf(key) >= 0;
 }
